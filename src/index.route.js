@@ -4,7 +4,6 @@ const requirements = require('./middlewares/requirements');
 
 router.use('/auth', require('./auth/auth.route'));
 router.use('/users', requirements.login, require('./user/user.route'));
-router.use('/categories', require('./category/category.route'));
 router.use('/invitations', require('./invitation/invitation.route'));
 router.use('/proxy', require('./proxy/proxy.route'));
 

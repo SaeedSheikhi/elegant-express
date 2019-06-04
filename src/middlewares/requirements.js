@@ -1,7 +1,6 @@
 const jwt = require("jsonwebtoken");
 const httpStatus = require("http-status");
 const APIError = require("../helpers/APIError");
-const Application = require("../application/application.model");
 const User = require("../user/user.model");
 import to from "../utils/to";
 

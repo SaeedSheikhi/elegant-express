@@ -9,8 +9,6 @@ const fileSchema = require('../models/file');
 const APIError = require('../helpers/APIError');
 import tokenify from '../helpers/tokenify';
 import { redisClient } from '../index';
-import { sendVerificationSms } from '../services/Mellipayamak';
-import { sendVerificationMail } from '../services/Sendgrid';
 import { esClient } from '../index';
 
 const userSchema = new Schema(
